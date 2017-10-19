@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'fira_sansbold';
+  src: url("../fonts/firasans-bold-webfont.woff2") format("woff2"), url("../fonts/firasans-bold-webfont.woff") format("woff"), url("../fonts/FiraSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'fira_sanslight';
+  src: url("../fonts/firasans-light-webfont.woff2") format("woff2"), url("../fonts/firasans-light-webfont.woff") format("woff"), url("../fonts/FiraSans-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'fira_sansmedium';
+  src: url("../fonts/firasans-medium-webfont.woff2") format("woff2"), url("../fonts/firasans-medium-webfont.woff") format("woff"), url("../fonts/FiraSans-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'fira_sansregular';
+  src: url("../fonts/firasans-regular-webfont.woff2") format("woff2"), url("../fonts/firasans-regular-webfont.woff") format("woff"), url("../fonts/FiraSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url("../fonts/opensanssemibold-webfont.woff2") format("woff2"), url("../fonts/opensanssemibold-webfont.woff") format("woff"), url("../fonts/OpenSansSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: none; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.42; }
+
+.intro {
+  width: 100%;
+  height: 100%;
+  background: url("../img/greeting/bg-pattern.jpg");
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.greeting {
+  width: 300px;
+  padding-top: 75px;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 8px;
+  border-left: 1px solid #e6e6e7;
+  border-right: 1px solid #e6e6e7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); }
+  .greeting__img-container {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid #bebebe; }
+  .greeting__img {
+    width: 100%;
+    border-radius: 50%; }
+  .greeting__title {
+    padding: 6px 15px;
+    text-align: center;
+    font-size: 1.32rem;
+    color: #414141;
+    font-family: OpenSansSemiBold, sans-serif; }
+  .greeting__footer {
+    margin-top: 5px;
+    padding: 20px 5px;
+    background-color: #33c1e3;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    text-align: center; }
+
+.blue-button {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-family: fira_sansbold, sans-serif;
+  font-size: 0.88rem;
+  color: #ffffff;
+  background-color: #33c1e3;
+  transition: .3s linear; }
+  .blue-button:hover {
+    background-color: #ffffff;
+    color: #33c1e3; }

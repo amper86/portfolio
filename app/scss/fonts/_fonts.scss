@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'fira_sansbold';
+  src: url('../fonts/firasans-bold-webfont.woff2') format('woff2'),
+  url('../fonts/firasans-bold-webfont.woff') format('woff'),
+  url('../fonts/FiraSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'fira_sanslight';
+  src: url('../fonts/firasans-light-webfont.woff2') format('woff2'),
+  url('../fonts/firasans-light-webfont.woff') format('woff'),
+  url('../fonts/FiraSans-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fira_sansmedium';
+  src: url('../fonts/firasans-medium-webfont.woff2') format('woff2'),
+  url('../fonts/firasans-medium-webfont.woff') format('woff'),
+  url('../fonts/FiraSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fira_sansregular';
+  src: url('../fonts/firasans-regular-webfont.woff2') format('woff2'),
+  url('../fonts/firasans-regular-webfont.woff') format('woff'),
+  url('../fonts/FiraSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url("../fonts/opensanssemibold-webfont.woff2") format("woff2"),
+  url("../fonts/opensanssemibold-webfont.woff") format("woff"),
+  url("../fonts/OpenSansSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

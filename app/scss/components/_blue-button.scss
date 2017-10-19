@@ -1,0 +1,18 @@
+.blue-button {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-family: fira_sansbold, sans-serif;
+  font-size: 0.88rem;
+  color: #ffffff;
+  background-color: $blue;
+  transition: .3s linear ;
+
+  &:hover {
+    background-color: #ffffff;
+    color: $blue;
+  }
+}
